@@ -51,6 +51,35 @@ public class Test {
 		System.out.println(me.age);
 		System.out.println(me.phoneNumber);
 		System.out.println(me.address);
+		System.out.println("");
+		
+		Robot aibo = new Robot();
+		aibo.name = "aibo";
+		
+		System.out.println(aibo.name);
+		aibo.talk();
+		aibo.walk();
+		aibo.run();
+		System.out.println("");
+		
+		Robot asimo = new Robot();
+		asimo.name = "asimo";
+		
+		System.out.println(asimo.name);
+		asimo.talk();
+		asimo.walk();
+		asimo.run();
+		System.out.println("");
+		
+		Robot pepper = new Robot();
+		pepper.name = "pepper";
+		
+		System.out.println(pepper.name);
+		pepper.talk();
+		pepper.walk();
+		pepper.run();
+		System.out.println("");
+		
 
 	}
 
